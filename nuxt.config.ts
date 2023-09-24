@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   modules: ["@nuxt/content"],
   content: {
-    respectPathCase: true,
     documentDriven: true,
     ignores: ["example", "config.json"],
     watch: {
